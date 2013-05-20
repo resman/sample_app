@@ -24,10 +24,20 @@ gem 'jquery-rails'
 
 group :development do 
   gem 'rspec-rails', '2.13.0'
+  gem 'webrat'
+  gem "ZenTest"
+  gem "autotest-rails-pure"
+  gem "autotest-growl"
+  gem "autotest-fsevent"
 end
 
 
 group :test do
   gem 'rspec', '2.13.0'
+  gem 'webrat'
+  gem "ZenTest"
+  gem "autotest-rails-pure"
+  gem "autotest-growl"
+  gem "autotest-fsevent"
 end
 
