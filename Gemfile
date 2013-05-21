@@ -29,6 +29,7 @@ group :development do
   gem "autotest-rails-pure"
   gem "autotest-growl"
   gem "autotest-fsevent"
+  gem 'annotate', ">=2.5.0"
 end
 
 
