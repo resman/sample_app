@@ -18,9 +18,9 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+  gem 'jquery-rails'
 end
 
-gem 'jquery-rails'
 
 group :development do 
   gem 'rspec-rails', '2.13.0'
@@ -35,6 +35,7 @@ end
 
 group :test do
   gem 'rspec', '2.13.0'
+  gem 'factory_girl_rails', '1.0'
   gem 'webrat'
   gem "ZenTest"
   gem "autotest-rails-pure"
